@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+    <fragment
+        android:id="@+id/nav_resto"
+        android:name="com.example.eatup.ui.list.ListRestaurantFragment"
+        tools:layout="@layout/fragment_list_restaurant" />
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="com.example.eatup.ui.home.HomeFragment"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="com.example.eatup.ui.gallery.GalleryFragment"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_type"
+        android:name="com.example.eatup.ui.list.TypeRestaurantFragment"
+        tools:layout="@layout/fragment_type_restaurant" />
+
+    <fragment
+        android:id="@+id/nav_around"
+        android:name="com.example.eatup.ui.around.AroundFragment"
+        tools:layout="@layout/fragment_around" />
+
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="com.example.eatup.ui.controller.AuthFragment"
+        tools:layout="@layout/fragment_around" />
+</navigation>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/lhome"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/luser"
+            android:title="@string/menu_profile" />
+        <item
+            android:id="@+id/nav_resto"
+            android:icon="@drawable/lrestaurant"
+            android:title="@string/menu_listrest" />
+        <item
+            android:id="@+id/nav_around"
+            android:icon="@drawable/lrestaurant"
+            android:title="@string/menu_around" />
+        <item
+            android:id="@+id/nav_notif"
+            android:icon="@drawable/lnotification"
+            android:title="@string/menu_notif" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/llogout"
+            android:title="@string/menu_logout" />
+    </group>
+</menu>
